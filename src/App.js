@@ -3,11 +3,12 @@ import './App.css';
 import Form from './useState/Form';
 import MovingDot from './useState/MovingDot';
 import Form2 from './useState/Form2';
+import TestArray from './useState/TestArray';
 
 function App() {
   return (
     <div className="App">
-      <Form2 />
+      <TestArray />
       {/* <MovingDot /> */}
     </div>
   );
