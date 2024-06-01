@@ -9,6 +9,7 @@ import Component1 from './useContext/Component1';
 import File from './useEffect/File';
 import File2 from './useEffect/File2';
 import File3 from './useEffect/File3';
+import MemoTest from './useMemo/MemoTest';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       {/* <MyApp>
         <Component1 />
       </MyApp> */}
-      <File3 />
+      {/* <File3 /> */}
       {/* <MovingDot /> */}
+      <MemoTest />
     </div>
   );
 }
